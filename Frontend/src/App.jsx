@@ -11,12 +11,14 @@ import RemoveObject from './pages/RemoveObject'
 import ReviewResume from './pages/ReviewResume'
 import Community from './pages/Community'
 import { useAuth } from '@clerk/clerk-react'
-import { useEffect } from 'react'
+
 import {Toaster} from 'react-hot-toast'
+import { ThemeProvider } from './context/themeContext'
 function App() {
 
   return (
     <div>
+      <ThemeProvider>
       <Toaster/>
      <Routes>
       <Route path="/" element={<Home />} />
@@ -31,6 +33,7 @@ function App() {
         <Route path='community' element={<Community/>}/>
       </Route>
      </Routes>
+     </ThemeProvider>
     </div>
   )
 }
