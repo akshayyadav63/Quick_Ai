@@ -21,25 +21,26 @@ Serverless PostgreSQL for scalable and cost-efficient storage
 Stores user data, generated content, and usage logs
 
 **🤖 Built-in AI Tools**
-**📝 Article Generator**
+**📝 Article Generator**:
 Input a title and desired length to generate AI-written articles.
 
-📰 Blog Title Generator
+📰 Blog Title Generator:
 Input a keyword and category to receive engaging blog title suggestions.
 
-**🎨 Image Generator**
+**🎨 Image Generator**:
 Enter a prompt to generate unique AI images.
 
-✂️ Background Remover
+✂️ Background Remover:
 Upload an image and automatically remove the background.
 
-**🧽 Image Object Remover**
+**🧽 Image Object Remover**:
 Specify the object to be removed from your uploaded image—AI will take care of it.
 
-**📄 Resume Analyzer**
+**📄 Resume Analyzer**:
 Upload your resume and get a full AI-powered breakdown with improvement tips.
 
 **🛠️ Tech Stack**
+
 Frontend: React + TailwindCSS
 
 Backend: Node.js + Express
@@ -53,6 +54,7 @@ AI Services: OpenAI, Replicate, or similar APIs
 File Storage (optional): Cloudinary or AWS S3
 
 🚀 Deployment**
+
 Frontend: Vercel 
 
 Backend: Vercel
@@ -65,6 +67,7 @@ CI/CD: GitHub Actions (optional)
 
 
  **Getting Started Locally**
+ 
  git clone https://github.com/your-username/quick-ai.git
 cd quick-ai
 npm install
@@ -90,7 +93,9 @@ GEMINI_API_KEY=your_gemini_api_key
 # Server
 PORT=3000
 
-npm run dev 
-npm run server
+**run command **
+
+frontend : npm run dev 
+backend:  npm run server
 
  
