@@ -2,7 +2,7 @@
 Quick.ai is a modern, fully functional AI-powered SaaS platform featuring premium tools and subscription access, built using the PERN stack (PostgreSQL, Express, React, Node.js). It integrates Clerk for secure user authentication and subscription management, and provides a suite of powerful AI tools to enhance productivity and creativity.
 
 🔗 Live Demo
-**[Try Quick.ai Live](https://quick-ai-frontend-phi.vercel.app/)**  
+**[Quick.ai Live](https://quick-ai-frontend-phi.vercel.app/)**  
 
 
 **✨ Key Features**
